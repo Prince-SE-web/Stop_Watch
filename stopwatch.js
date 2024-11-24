@@ -24,7 +24,7 @@ function displayTime(){
 
 function startTime(){
   if(!interval){
-    interval = setInterval(increaseTime,1);
+    interval = setInterval(increaseTime,1000);
   }
 }
 

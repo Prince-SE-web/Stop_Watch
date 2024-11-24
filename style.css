@@ -8,7 +8,7 @@
 html,body{
   height:100vh;
   width: 100vh;
-  background-color: rgb(86, 37, 115);
+  background-color:rgb(86, 37, 115);
 }
 #main{
   position: absolute;
@@ -46,8 +46,8 @@ html,body{
 
 #start{
   color:white;
-  border:2px solid #007BFF;
-  background-color: #007BFF; 
+  border:2px solid white;
+  background-color: rgb(44, 16, 86); 
   position:relative;
 }
 #start::before{
