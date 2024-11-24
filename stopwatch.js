@@ -39,6 +39,7 @@ function resetTime(){
   displayTime();
 }
 
+//Event Listeners
 start.addEventListener("click",startTime);
 stop1.addEventListener("click",stopTime);
 reset.addEventListener("click",resetTime);
