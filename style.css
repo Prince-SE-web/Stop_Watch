@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "varela Round";
+}
+
+html,body{
+  height:100vh;
+  width: 100vh;
+  background-color: rgb(86, 37, 115);
+}
+#main{
+  position: absolute;
+  top:40%;
+  left:50%;
+  width:500px;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px white,-3px -3px 10px white;
+  text-align: center;
+}
+
+#heading{
+  color: rgb(232, 214, 154);
+  font-size: 3rem;
+  margin-bottom: 40px;
+ 
+}
+
+#time{
+  color:white;
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  font-size: 1.5rem;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-weight: bolder;
+  cursor:pointer;
+}
+
+#start{
+  color:white;
+  border:2px solid #007BFF;
+  background-color: #007BFF; 
+  position:relative;
+}
+#start::before{
+  content:'';
+  width:0%;
+  border-radius: 10px;
+  height:3px;
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  left:0;
+  transition: width 0.5s ease-in-out;
+}
+#start:hover::before{
+  width:100%;
+}
+#start:active{
+  opacity: 0.5;
+}
+
+#stop{
+  color:white;
+  border:2px solid #FF5733;
+  background-color: #FF5733; 
+  position:relative;
+  border: 3px solid #FF5733;
+  transition: color 0.8s cubic-bezier(0.075, 0.82, 0.165, 1),background-color 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#stop:hover{
+  color:#FF5733;
+  background-color: white;
+
+}
+#stop:active{
+  opacity: 0.5;
+}
+
+#reset{
+  color:white;
+  border:2px solid #6C757D;
+  background-color: #6C757D; 
+  position:relative;
+}
+#reset::before{
+  content:'';
+  width:0%;
+  border-radius: 10px;
+  height:3px;
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  left:0;
+  transition: width 0.5s ease-in-out;
+}
+#reset:hover::before{
+  width:100%;
+}
+#reset:active{
+  opacity: 0.5;
+}
+
+
+
+
+
+
